@@ -99,6 +99,23 @@ public class Main {
 
         pergunta6.close();
 
+        //exercicio 6.1
+
+        System.out.println("Informe um valor ");
+        Scanner pergunta61 = new Scanner(System.in);
+        int valor1 = pergunta6.nextInt();
+
+        System.out.println("Informe um 2° valor");
+        int valor2 = pergunta61.nextInt();
+
+        System.out.println("Informe um 3° valor");
+        int valor3 = pergunta61.nextInt();
+
+        System.out.println("Informe um 3° valor");
+        int valor4 = pergunta61.nextInt();
+
+        int resultado = 
+
         //exercicio 7
 
         System.out.println("Informe um valor");
@@ -112,25 +129,31 @@ public class Main {
         int numero_3 = pergunta7.nextInt();
 
         if(numero_1 > numero_2 && numero_1 > numero_3 && numero_2 < numero_3){
-            System.out.println("A soma dos 2 maiores numeros é" + numero_1 + numero_3);
+            System.out.println("A soma dos 2 maiores numeros é" + (numero_1 + numero_3));
         }
         else if(numero_2 > numero_1 && numero_2 > numero_3 && numero_1 < numero_3){
-            System.out.println("A soma dos 2 maiores numeros é" + numero_2  + numero_3);
+            System.out.println("A soma dos 2 maiores numeros é" + (numero_2  + numero_3));
         }
         else if(numero_3 > numero_1 && numero_3 > numero_2 && numero_1 < numero_2){
-            System.out.println("A soma dos 2 maiores numeros é" + numero_3 + numero_2);
+            System.out.println("A soma dos 2 maiores numeros é" + (numero_3 + numero_2));
         }
         else if(numero_3 > numero_2 && numero_3 > numero_1){
-            System.out.println("A soma dos 2 maiores numeros é" + numero_3 + numero_1);
+            System.out.println("A soma dos 2 maiores numeros é" + (numero_3 + numero_1));
         }
         else if(numero_2 > numero_3 && numero_2 > numero_1 ){
-            System.out.println("A soma dos 2 maiores numeros é" + numero_2 + numero_1);
+            System.out.println("A soma dos 2 maiores numeros é" + (numero_2 + numero_1));
         }
         else if(numero_1 > numero_3 && numero_1 > numero_2){
-            System.out.println("A soma dos 2 maiores numeros é" + numero_1 + numero_2);
+            System.out.println("A soma dos 2 maiores numeros é" + (umero_1 + numero_2));
         }
 
         pergunta7.close();
+
+        /* Maneira mais simples
+
+        match.min(a, match.min(b,c));
+        int soma: a + b + c - min
+        */
 
         //exercicio 8
 
