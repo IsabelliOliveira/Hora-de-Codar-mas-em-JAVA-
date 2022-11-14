@@ -59,7 +59,28 @@ public class Main {
 
         System.out.println("O valor da area do Trapézio é " + ((base_maior * base_menor)* altura_h)/2);
 
+        //exercicio Triangulo
+        System.out.println("Informe a base do Triangulo ");
+        int base_t = pergunta4.nextInt();
+        System.out.println("Informe a altura do Triangulo ");
+        int altura_t = pergunta4.nextInt();
+
+        System.out.println("Valor da área: " + altura_t *base_t );
+
+        //exercicio Circulo
+        System.out.print("Informe o raio: ");
+        int raio = pergunta4.nextInt();
+        int diametro = raio * raio;
+        double pi = 3.14; 
+
+        System.out.println("A area do circulo é: " + diametro * pi);
+
+
         pergunta4.close();
+
+        //exercicio Triangulo
+
+
 
         //exercicio 5
 
